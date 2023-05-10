@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="test">hej</h1>
+
+    <p id="demo">Hello</p>
+
+    <!-- Uppgift 5 -->
+
+    <form>
+        
+        <label for="firstName"> Skriv ditt namn: </label>
+        <input type="text" id="firstName">
+        <input type="button" value="Skicka" onclick="console.log(firstName.value)";>
+
+    </form>
+    
+
+    <script>
+
+        // Uppgift 1
+
+        document.getElementById("test").style.color = "red";
+
+        // Uppgift 2
+
+        document.getElementById("demo").innerHTML = "Hej";
+
+        // Uppgift 3
+
+        const numArray = [1,2,3,4,5];
+
+        function array()
+        {
+
+            for(let element of numArray)
+            {
+                element * 5
+
+                const newArray = [numArray]
+
+                console.log(newArray);
+            }
+
+            
+
+            
+        }
+        array()
+
+        // Uppgift 4
+
+        function multi()
+        {
+            let num1 = prompt("Skriv ett nummer: ")
+            let num2 = prompt("Skriv ett till nummer: ")
+
+            parseInt(num1);
+            parseInt(num2);
+
+            alert("Produkten av talen är " + num1 * num2);
+
+        }
+        multi()
+
+
+        
+
+    </script>
+
+</body>
+</html>
